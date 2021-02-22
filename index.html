@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Capas y formularios | Leonel Marquez</title>
+  </head>
+  <body>
+    <div class="form-cotizaciones">
+      <header>
+        <h1>BIENVENIDO</h1>
+        <span>Realizar cotización</span>
+      </header>
+      <form id="form" method="post">
+        <input type="text" id="nombre" placeholder="Nombre del cotizante" />
+        <span class="msg_error"></span>
+        <input
+          type="number"
+          id="cantidad"
+          placeholder="Cantidad de celulares"
+        />
+        <span class="msg_error"></span>
+        <input type="text" id="producto" placeholder="Nombre del producto" />
+        <span class="msg_error"></span>
+        <input type="text" id="precio" placeholder="Precio Unitario" />
+        <span class="msg_error"></span>
+
+        <button type="submit" id="solicitar">Solicitar Cotización</button>
+      </form>
+    </div>
+
+    <div class="resultados">
+      <header>
+        <h2>DATOS INGRESADOS</h2>
+      </header>
+      <article>
+        <div class="grupo">
+          <label>Nombre Cotizador: </label>
+          <span class="datos"></span>
+        </div>
+        <div class="grupo">
+          <label>Cantidad de productos: </label>
+          <span class="datos"></span>
+        </div>
+        <div class="grupo">
+          <label>Nombre de producto: </label>
+          <span class="datos"></span>
+        </div>
+        <div class="grupo">
+          <label>Precio Uniddad: </label>
+          <span class="datos"></span>
+        </div>
+        <header>
+          <h2>DATOS FINALES</h2>
+        </header>
+        <div class="datos_finales">
+          <label>Total:</label>
+          <span class="datos"></span>
+          <label>Descuento: </label>
+          <span class="datos"></span>
+          <label>Total con descuento aplicado: </label>
+          <span class="datos"></span>
+        </div>
+      </article>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.form-cotizaciones{
+  width:100%;
+  max-width:350px;
+  margin:auto;
+  margin-top: 70px;
+}
+
+.form-cotizaciones header{
+  width:100%;
+  height: 100px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-bottom: 15px;
+  background:#2A6598;
+  border-radius: 7px;
+}
+
+.form-cotizaciones header h1{
+  color:white;
+  font-weight: 700;
+}
+
+.form-cotizaciones header span{
+  color: white;
+  font-weight: 100;
+}
+
+.form-cotizaciones form{
+  width:100%;
+  /* padding: 25px; */
+  /* border-bottom: 1px dashed #BCB5B3; */
+}
+
+.form-cotizaciones form input[type="text"],input[type="number"]{
+  display:block;
+  width:100%;
+  height:40px;
+  font-size: 16px;
+  border:1px solid #BCB5B3;
+  margin-top: 20px;
+  border-radius:7px;
+  padding-left: 15px;
+  background:#F3EAEB;
+}
+
+.form-cotizaciones form input::placeholder{
+  color:#BCB5B3;
+}
+
+
+
+.form-cotizaciones form button{
+  display:block;
+  width:100%;
+  height:45px;
+  background:#2A6598;
+  color:white;
+  border-radius: 7px;
+  margin-top:25px;
+  margin-bottom: 20px;
+  border:0px;
+}
+
+.form-cotizaciones form button:hover{
+  background:#3476b1;
+  cursor:pointer;
+}
+
+
+/* mensaje de error */
+
+.msg_error{
+  display:block;
+  color:red;
+  padding:2px 0px;
+  font-size: 14px;
+  padding-left: 5px;
+  font-weight: 100;
+}
+
+
+
+/* datos finales */
+.resultados{
+  width:100%;
+  max-width:375px;
+  margin:auto;
+  margin-top: 40px;
+  background:#2A6598;
+  border-radius: 7px;
+  padding:15px;
+  position:relative;
+}
+
+.resultados::before{
+  content: "";
+  display:block;
+  border-top: 0px solid #2A6598;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid #2A6598;
+  /* background:#2A6598; */
+  position: absolute;
+  top:-20px;
+  margin:auto;
+}
+
+.resultados header h2{
+  color:rgb(241, 249, 255);
+  margin-top: 10px;
+}
+
+.grupo{
+  display:flex;
+  margin-top: 5px;
+}
+
+.grupo label{
+  color:#c0dffa;
+  margin-right: 5px;
+}
+
+.datos_finales{
+  margin:5px 0px;
+  background:#2e6494;
+  padding:5px;
+}
+
+.datos_finales label{
+  display: block;
+  color:#c0dffa;
+}
+
+.datos{
+  color:white;
+  font-family: cursive;
+}
+
+
