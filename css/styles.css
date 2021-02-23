@@ -99,6 +99,7 @@
   border-radius: 7px;
   padding:15px;
   position:relative;
+  margin-bottom: 20px;
 }
 
 .resultados::before{
